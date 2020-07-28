@@ -1,0 +1,15 @@
+<프로젝트 최초 생성 PC쪽> [GIT BASH]
+git init
+git add --all .
+git commit -m "first commit"
+
+<Github>
+- repository 생성 (myrep)
+ [GIT BASH]
+git remote add origin https://github.com/rahwina503/myrep.git   [한번만 입력하면됨.]
+git push -u origin master
+
+<수정후>
+git add --all .
+git commit -m "first commit"
+git push
